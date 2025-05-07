@@ -1,0 +1,125 @@
+.club-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  background: transparent;
+  min-height: 100vh;
+}
+
+.club-card {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 40px;
+  max-width: 900px;
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.club-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.club-logo img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 5px solid #0c2d55;
+}
+
+.club-title {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.enroll-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#enroll-btn {
+  padding: 10px 24px;
+  font-size: 16px;
+  border: none;
+  background-color: #0c2d55;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+#enroll-btn:hover {
+  transform: scale(1.05);
+  color: white;
+  border: none;
+  background-color: #9b0202d4;
+}
+
+.MuiDialog-paper {
+  border-radius: 20px ;
+  background: rgba(255, 255, 255, 0.95) ;
+  backdrop-filter: blur(12px) ;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2) ;
+}
+
+.club-section {
+  margin-top: 30px;
+}
+
+.club-section-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  border-left: 4px solid #9b0202;
+  padding-left: 10px;
+}
+
+.club-section-content {
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.leader-list,
+.contact-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.leader-card,
+.contact-card {
+  background: #62a7fc41;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.112);
+  text-align: center;
+}
+
+.error-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#enrollsubmit{
+  color: white;
+  border: none;
+  background-color: #0c2d55d6;
+}
+
+#enrollsubmit:hover{
+  color: white;
+  border: none;
+  background-color: #9b0202d4;
+  transition: 0.3s ease;
+}

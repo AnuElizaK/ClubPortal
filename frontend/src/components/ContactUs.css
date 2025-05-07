@@ -1,0 +1,35 @@
+#rating{
+    color: var(--main-white);
+    height: 3.5rem;
+    outline: 1px solid #b5a8b0;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--main-dark-grey);
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-left: 10px;
+    transition: .1s var(--main-ease);
+}
+
+#cname, #cemail, #rating{
+    background-color: #eef2ff;
+    border-radius: 5px;
+}
+
+#feedbackbutton{
+    background: linear-gradient(to right, #0c2d55, #9b0302 ); 
+}
+
+#title1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#title2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#d{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #0c2d55;
+}
+
+body{
+    background: linear-gradient(to bottom right, #d3e7ff, #ffd6d6);
+}
+
+#ch{
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+#dashtitle{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#clubs{
+    background-color: #c8e1ff;
+}
+
+small{
+    font-size: 0.6em;
+    color: #5f748e;
+}
+
+#atoolbar{
+    background: linear-gradient(to right, #0c2d55, #9b0302 );
+    color: white;
+}
+
+#abutton:hover{
+    background-color: rgb(238, 208, 255);
+    transition: 0.3s; 
+}
+
+#asbutton{
+    margin-bottom: 7px;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+}
+
+#asbutton:hover{
+    background: linear-gradient(to right, #81baff47, #ff828247 ); 
+    border-radius: 10px;
+    padding: 16px;
+}
+
+#adg{
+    background: linear-gradient(to right, #0c2d55, #9b0302 );
+}
+
+#adb{
+    color: white;
+    border: none;
+    background-color: #0c2d55d6;
+}
+
+#adb:hover{
+    color: white;
+    border: none;
+    background-color: #9b0202d4;
+    transition: 0.3s ease;
+}
+
+#footer{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(to left, #0c2d55b4, #9b0202b7 );
+}
+
+#hordiv{
+    background-color: rgba(255, 255, 255, 0.498);
+    width: 1px;
+    border-radius: 5px;
+}
+
+#link{
+    color: #ffd2d2;
+}
+
+#link:hover{
+    color: #c8e1ff;
+}
+
+#admindashcards{
+    background-color: #eef6ff;
+    transition: 0.5s;
+}
+   
+#admindashcards:hover {
+    background-color: #ffffff;
+    transform: scale(1.03);
+}
+
+#club-admin-edit-cancel, 
+#club-admin-edit-submit, 
+#admin-add-event, 
+#admin-event-edit, 
+#admin-event-delete,
+#admin-event-edit-cancel,
+#admin-event-edit-update-create{
+    color: white;
+    border: none;
+    background-color: #0c2d55d6;
+}
+
+#club-admin-edit-cancel:hover, 
+#club-admin-edit-submit:hover, 
+#admin-add-event:hover, 
+#admin-event-edit:hover, 
+#admin-event-delete:hover,
+#admin-event-edit-cancel:hover,
+#admin-event-edit-update-create:hover{
+    color: white;
+    border: none;
+    background-color: #9b0202d4;
+    transition: 0.3s ease;
+}
+
+#admin-event-tabs{
+    color: #0c2d55;
+}
+
+#admin-event-tabs:focus{
+    color: #9b0302;
+    border-bottom: 2px solid #0c2d55;
+    transition: 0.3s ease;
+}

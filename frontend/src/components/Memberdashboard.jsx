@@ -36,7 +36,7 @@ const ClubCard = ({ club }) => {
             <Typography gutterBottom variant="h5" sx={{ fontFamily: 'Montserrat, sans-serif', fontSize: '35px', textAlign: 'center' }}>
               {club.name}
             </Typography>
-            <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+            <Typography variant="body2" sx={{ color: 'text.secondary', textAlign: 'center' }}>
               {club.description}
             </Typography>
           </CardContent>

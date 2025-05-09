@@ -184,7 +184,7 @@ const ClubPage = () => {
 
         {clubData.gallery && clubData.gallery.length > 0 && (
           <div className="club-section">
-            <h2 className="club-section-title">Gallery:</h2>
+            <h2 className="club-section-title">Gallery</h2>
             <ImageList sx={{ width: '100%', height: 450 }} cols={3} rowHeight={164}>
               {clubData.gallery.map((imgUrl, index) => (
                 <ImageListItem key={index}>

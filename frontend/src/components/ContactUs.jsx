@@ -58,7 +58,7 @@ const ContactUs = () => {
       variant="h4" 
       sx={{ fontFamily: 'Montserrat, san-serif', color: '#0c2d55', mb: 4 }} 
       gutterBottom>
-        Behind The Scene
+        Behind The Scenes
         <br/>
         <small>
           We are a small, rookie team of student developers with a passion for software development.
@@ -107,6 +107,7 @@ const ContactUs = () => {
             alignItems: 'center', 
              }}>
             <Rating
+              label='Rate Us'
               name="hover-feedback"
               value={value}
               precision={0.5}
@@ -124,7 +125,7 @@ const ContactUs = () => {
             )}
           </Box>
           <TextField 
-          label="Have any suggestions or complaints?" 
+          label="Got any suggestions or complaints?" 
           placeholder='Let us know'
           name="badFeedback" 
           fullWidth margin="normal" 
